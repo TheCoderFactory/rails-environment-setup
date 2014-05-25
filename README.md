@@ -52,17 +52,17 @@ Check your version of Ruby anytime by typing:
 
 In your terminal type:
 
-    rvm use ruby-2.1.0@rails-403 --create
+    rvm use ruby-2.1.0@rails-411 --create
 
 Now install the latest Rails:
 
     gem install rails
 
-When it's finished, check the version with `rails -v`. It should be 4.0.3
+When it's finished, check the version with `rails -v`. It should be 4.1.1
 
 Now set this as the default gemset:
 
-    rvm use ruby-2.1.0@rails-403 --default
+    rvm use ruby-2.1.0@rails-411 --default
 
 ## For Linux
 
